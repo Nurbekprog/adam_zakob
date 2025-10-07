@@ -13,6 +13,9 @@
     line-height: 100%;
     letter-spacing: 0%;
   }
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
 }
 .menu_btn {
   padding: 20px;

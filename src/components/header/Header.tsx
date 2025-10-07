@@ -1,9 +1,14 @@
+import { motion } from "framer-motion";
 import Logo from "../../assets/images/logo.png";
 import Menu_btn from "../../assets/images/menu_btn.png";
 import "./Header.scss";
 const Header = () => {
   return (
-    <div className="container pt-65">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      className="container pt-65"
+    >
       <ul className="nav flex place-content-between items-center">
         <li className="flex place-content-between gap-[100px] items-center">
           <img src={Logo} alt="Logo" />
@@ -28,7 +33,7 @@ const Header = () => {
           </button>
         </li>
       </ul>
-    </div>
+    </motion.div>
   );
 };
 
