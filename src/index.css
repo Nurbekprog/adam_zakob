@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+@import "tailwindcss";
+
+.container {
+  max-width: 1150px !important;
+  margin: 0 auto;
+  padding: 0 0;
+  width: 100%;
+}
+h1 {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
